@@ -93,7 +93,7 @@ end
 
 
 def play
-  until over? 
+  until over?
     turn
   end
   if won?
