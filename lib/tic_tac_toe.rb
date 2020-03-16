@@ -80,7 +80,6 @@ def over?
 end
 
 def winner
-<<<<<<< HEAD
  combo = won?
  if combo
    return @board[combo[0]]
