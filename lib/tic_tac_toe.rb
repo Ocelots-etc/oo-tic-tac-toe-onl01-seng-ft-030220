@@ -93,22 +93,7 @@ end
 
 
 def play
-  until over?
-=======
- index = []
- index = won?
- if index == false
-   nil
-  elsif @board[index[0]] == "X"
-   return "X"
-  else @board[index[0]] == "O"
-   return "O"
-  end
-end
-
-def play
-  until over? == true
->>>>>>> 2ca66263378bf5ca869d72d0a48289a30974bcbb
+  until over? 
     turn
   end
   if won?
